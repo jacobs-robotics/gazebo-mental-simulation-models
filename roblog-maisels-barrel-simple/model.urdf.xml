@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot name="roblog-maisels-barrel-simple" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <xacro:include filename="../helpers.xml"/>
+  <xacro:include filename="../inertia.xml"/>
+  
+  <cylinderlink_materialized name="link" height="0.242" radius="0.082" material="Gazebo/Orange" mass="0.54" dampingfactor="0.005"/>
+  
+</robot>

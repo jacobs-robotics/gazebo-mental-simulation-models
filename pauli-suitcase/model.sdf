@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="pauli-suitcase">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>-0.0004365 -0.042819 0.122433 0 0 0</pose>
+<mass>0.25</mass>
+<inertia>
+<ixx>0.00292222</ixx>
+<ixy>0</ixy><iyy>0.00116988</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.00267893</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://pauli-suitcase/meshes/pauli-suitcase.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/WhiteGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://pauli-suitcase/meshes/pauli-suitcase.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

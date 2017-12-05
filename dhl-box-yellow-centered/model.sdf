@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="dhl-box-yellow">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>0.32</mass>
+<inertia>
+<ixx>0.00289503</ixx>
+<ixy>0</ixy><iyy>0.0013254</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.00213353</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://dhl-box-yellow-centered/meshes/dhl-box-yellow-centered.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/YellowGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://dhl-box-yellow-centered/meshes/dhl-box-yellow-centered.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

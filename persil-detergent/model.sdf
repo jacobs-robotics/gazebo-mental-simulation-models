@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="persil-detergent">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0.0119975 -0.018828 0.199706 0 0 0</pose>
+<mass>0.24</mass>
+<inertia>
+<ixx>0.00348626</ixx>
+<ixy>0</ixy><iyy>0.00303217</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.00148431</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://persil-detergent/meshes/persil-detergent.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/WhiteGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://persil-detergent/meshes/persil-detergent.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<robot name="shopping-cornflakes-box" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <link name="link">
+    <visual>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+        <box size="0.195 0.07 0.29"/>
+      </geometry>
+      <material name="Gazebo/YellowGlow"/>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <contact_coefficients mu="1.0"/>
+      <geometry>
+        <box size="0.195 0.07 0.29"/>
+      </geometry>
+      <surface>
+        <friction>
+          <ode>
+            <mu>1</mu>
+            <mu2>1</mu2>
+          </ode>
+        </friction>
+      </surface>
+    </collision>
+    <inertial>
+      <mass value="0.4"/>
+      <inertia ixx="0.00370833333333" ixy="0" ixz="0" iyy="0.00508854166667" iyz="0" izz="0.00178854166667"/>
+    </inertial>
+  </link>
+  <gazebo reference="link">
+    <material>Gazebo/YellowGlow</material>
+  </gazebo>
+</robot>
+

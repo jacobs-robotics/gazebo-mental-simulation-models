@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="benq-box">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0.0045555 -0.04627 0.221547 0 0 0</pose>
+<mass>0.85</mass>
+<inertia>
+<ixx>0.0418824</ixx>
+<ixy>0</ixy><iyy>0.0123998</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.0327562</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://benq-box/meshes/benq-box.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/WhiteGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://benq-box/meshes/benq-box.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

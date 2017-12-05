@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="coffee-sack1">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0 0 0 0 0 0</pose>
+<mass>2</mass>
+<inertia>
+<ixx>0.129271143</ixx>
+<ixy>0</ixy><iyy>0.089786857</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.187050857</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://coffee-sack1-centered/meshes/coffee-sack1-centered.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/PaintedWall</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://coffee-sack1-centered/meshes/coffee-sack1-centered.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

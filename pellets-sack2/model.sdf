@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="pellets-sack2">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0.0493325 -0.0808365 0.170128 0 0 0</pose>
+<mass>16</mass>
+<inertia>
+<ixx>1.41691</ixx>
+<ixy>0</ixy><iyy>0.892643</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>2.08526</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://pellets-sack2/meshes/pellets-sack2.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/WhiteGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://pellets-sack2/meshes/pellets-sack2.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

@@ -1,0 +1,19 @@
+<?xml version="1.0" ?><sdf version="1.5"><model name="tchibo-box">
+<link name="link">
+<pose>0 0 0 0 0 0</pose>
+<inertial>
+<pose>0.0011 -0.069138 0.218289 0 0 0</pose>
+<mass>0.59</mass>
+<inertia>
+<ixx>0.0171154</ixx>
+<ixy>0</ixy><iyy>0.012674</iyy>
+<ixz>0</ixz><iyz>0</iyz><izz>0.0116607</izz>
+</inertia>
+</inertial>
+<visual name="visual">
+<pose>0 0 0 0 0 0</pose>
+<geometry><mesh><uri>model://tchibo-box/meshes/tchibo-box.dae</uri></mesh></geometry>
+<material><script><uri>file://media/materials/scripts/gazebo.material</uri><name>Gazebo/WhiteGlow</name></script></material></visual>
+<collision name="collision"><pose>0 0 0 0 0 0</pose><geometry><mesh><uri>model://tchibo-box/meshes/tchibo-box.dae</uri></mesh></geometry>
+<surface><friction><ode><mu>1.000000</mu><mu2>1.000000</mu2></ode></friction></surface>
+</collision></link></model></sdf>

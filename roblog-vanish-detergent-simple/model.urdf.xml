@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot name="roblog-vanish-detergent-simple" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <xacro:include filename="../helpers.xml"/>
+  <xacro:include filename="../inertia.xml"/>
+  
+  <cylinderlink_materialized name="link" height="0.2" radius="0.054" material="Gazebo/PurpleGlow" mass="0.08" dampingfactor="0.005"/>
+
+</robot>

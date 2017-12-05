@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<robot name="roblog-dhl-box-blue-simple" xmlns:xacro="http://www.ros.org/wiki/xacro">
+  
+  <xacro:include filename="../helpers.xml"/>
+  <xacro:include filename="../inertia.xml"/>
+  
+  <boxlink_materialized name="link" size_x="0.372" size_y="0.126" size_z="0.298" material="Gazebo/Blue" mass="0.25"/>
+
+</robot>
